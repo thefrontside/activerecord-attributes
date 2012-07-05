@@ -1,5 +1,6 @@
-require 'activerecord-attributes'
 require 'active_record'
+require 'activerecord-attributes'
+
 describe "An active record" do
   before do
     ActiveRecord::Base.establish_connection({
