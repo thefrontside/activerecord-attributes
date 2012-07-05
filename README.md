@@ -1,7 +1,5 @@
 # Activerecord::Attributes
 
-Adds just a hint of sanity to your active records
-
 Just looking at an ActiveRecord class can be cognitively cumbersome. Not only do you have to comprehend all the
 scopes, relations, validations, etc, present in the file, but at the same time you have mentally
 overlay the database table that it represents in order to get the full picture.
@@ -10,7 +8,7 @@ Why should you required to reconcile two related mental models in realtime in or
 else's code?
 
 `ActiveRecord::Attributes` is a simple way to annotate and sanity check your record classess so that they can be both
-understood and known correct.
+understood and known to be correct.
 
 ## Usage
 
